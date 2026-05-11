@@ -2,7 +2,9 @@
 
 My public learning journal working through [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui) by Paul Hudson.
 
-Coming from a VB.NET and Java background, this is my first time writing Swift. Building toward iOS apps focused on mental health and wellbeing.
+I'm Will Parsons-Douglas — a former Police Constable with 14 years in Hertfordshire Constabulary, now building independent iOS apps full-time from the Moray Coast, Scotland. I have a BSc (Hons) in Psychology, a BTEC Level 3 in Software Development, and a previous app published on the App Store. This repo documents my return to Swift and SwiftUI from scratch.
+
+The same analytical thinking and attention to detail that defined my policing career goes into every line of code.
 
 ## Progress
 
@@ -18,11 +20,22 @@ Coming from a VB.NET and Java background, this is my first time writing Swift. B
 ## Goals
 
 - Complete all 100 days
-- Build a real iOS app by the end
+- Build a real iOS app by the end — focused on mental health or wellbeing
 - Document progress publicly as I go
+
+## Background
+
+- BTEC Level 3 National Diploma in Software Development (North Hertfordshire College, 2008)
+- BSc (Hons) Psychology, 2:1 — University of Hertfordshire (2011)
+- 14 years in policing — investigative work, digital crime, victim support, mental health first aid
+- Independent iOS Developer since 2026
 
 ## Tools
 
 - Xcode 26
 - Swift 6
 - iPhone (real device testing)
+
+---
+
+[Portfolio](https://williphant-dev.github.io) · [GitHub](https://github.com/williphant-dev)
