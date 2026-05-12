@@ -80,6 +80,42 @@ let a = 1
 let b = 2.0
 let c = a + Int(b) //Let c = Double(a)+b
 
+let goodDogs = true //boolean
+
+var gameOver = false
+gameOver.toggle() //toggles boolen like !
+
+print(gameOver)
+
+let isMultiple = 120.isMultiple(of: 3)
+
+var isAuthenticated = false
+
+isAuthenticated = !isAuthenticated //! flips false to true etc
+print(isAuthenticated)
+
+//Strings
+
+let firstPart = "hello, "
+let secondPart = "world!"
+
+let greetingTwo = firstPart + secondPart
+
+let nameTay = "Taylor"
+let ageTay = 26
+let messageTay = "Hello, my name is \(nameTay) and i'm \(ageTay) years old."
+print(messageTay)
+
+print ("5 X 5 is \(5*5)") //calculation within, printed as text
+
+//check point 1
+
+let celcius = 23.0
+
+print ("\(celcius)° Celsius in Farneheit is \(celcius * 9/5 + 32)°")
+
+
+
 
 
 
