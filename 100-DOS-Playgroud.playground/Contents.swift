@@ -110,9 +110,9 @@ print ("5 X 5 is \(5*5)") //calculation within, printed as text
 
 //check point 1
 
-let celcius = 23.0
+let celsius = 23.0
 
-print ("\(celcius)° Celsius in Farneheit is \(celcius * 9/5 + 32)°")
+print ("\(celsius)° Celsius in Fahrenheit is \(celsius * 9/5 + 32)°")
 
 
 

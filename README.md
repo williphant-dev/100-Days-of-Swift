@@ -4,7 +4,6 @@ My public learning journal working through [100 Days of SwiftUI](https://www.hac
 
 I'm Will Parsons-Douglas — a former Police Constable with 14 years in Hertfordshire Constabulary, now building independent iOS apps full-time from the Moray Coast, Scotland. I have a BSc (Hons) in Psychology, a BTEC Level 3 in Software Development, and a previous app published on the App Store. This repo documents my return to Swift and SwiftUI from scratch.
 
-The same analytical thinking and attention to detail that defined my policing career goes into every line of code.
 
 ## Progress
 
@@ -28,7 +27,6 @@ The same analytical thinking and attention to detail that defined my policing ca
 - BTEC Level 3 National Diploma in Software Development (North Hertfordshire College, 2008)
 - BSc (Hons) Psychology, 2:1 — University of Hertfordshire (2011)
 - 14 years in policing — investigative work, digital crime, victim support, mental health first aid
-- Independent iOS Developer since 2026
 
 ## Tools
 
