@@ -10,6 +10,7 @@ I'm Will Parsons-Douglas — a former Police Constable with 14 years in Hertford
 | Day | Topic |
 |-----|-------|
 | Day 1 | Variables, constants, strings, numbers, type safety |
+| Day 2 | Boolean logic, check up 1 |
 
 ## Structure
 
@@ -19,7 +20,7 @@ I'm Will Parsons-Douglas — a former Police Constable with 14 years in Hertford
 ## Goals
 
 - Complete all 100 days
-- Build a real iOS app by the end — focused on mental health or wellbeing
+- Build a real iOS app by the end
 - Document progress publicly as I go
 
 ## Background
