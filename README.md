@@ -10,11 +10,11 @@ I'm Will Parsons-Douglas — a former Police Constable with 14 years in Hertford
 | Day | Topic |
 |-----|-------|
 | Day 1 | Variables, constants, strings, numbers, type safety |
-| Day 2 | Boolean logic, check up 1 |
+| Day 2 | Boolean logic, Checkpoint 1 |
 
 ## Structure
 
-- `100-DOS-Playgroud.playground` — scratch pad used for practising concepts day to day
+- `100-DOS-Playground.playground` — scratch pad used for practising concepts day to day
 - `100 DOS.swiftpm` — Swift playground app (SwiftUI)
 
 ## Goals
