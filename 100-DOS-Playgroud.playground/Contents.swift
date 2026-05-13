@@ -20,7 +20,7 @@ print(playerName)
 playerName = "Sam"
 print(playerName)
 
-// Cammelcase?
+// Camelcase?
 
 let managerName = "Michael Scott"
 let dogBreed = "Samoyed"
@@ -36,10 +36,10 @@ Apple engineer
 """
 
 print(movie.count) // Count chars
-print (movie.uppercased()) //Returns uppercase
+print(movie.uppercased()) //Returns uppercase
 
-print (movie.hasPrefix("A day")) //true/false return
-print (movie.hasSuffix("engineer"))
+print(movie.hasPrefix("A day")) //true/false return
+print(movie.hasSuffix("engineer"))
 
 //Numbers
 
@@ -58,7 +58,7 @@ counter += 5 //Compound assignment operators
 print (counter) //counter = counter+5
 
 counter *= 2 //
-print (counter)
+print(counter)
 
 counter -= 10
 print(counter)
@@ -78,7 +78,7 @@ print(numberFloating)
 //type safety
 let a = 1
 let b = 2.0
-let c = a + Int(b) //Let c = Double(a)+b
+let c = a + Int(b) //Let c = double(a)+b
 
 let goodDogs = true //boolean
 
@@ -106,13 +106,13 @@ let ageTay = 26
 let messageTay = "Hello, my name is \(nameTay) and i'm \(ageTay) years old."
 print(messageTay)
 
-print ("5 X 5 is \(5*5)") //calculation within, printed as text
+print("5 X 5 is \(5*5)") //calculation within, printed as text
 
 //check point 1
 
 let celsius = 23.0
 
-print ("\(celsius)° Celsius in Fahrenheit is \(celsius * 9/5 + 32)°")
+print("\(celsius)° Celsius in Fahrenheit is \(celsius * 9/5 + 32)°")
 
 
 
