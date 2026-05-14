@@ -115,9 +115,16 @@ let celsius = 23.0
 print("\(celsius)° Celsius in Fahrenheit is \(celsius * 9/5 + 32)°")
 
 
+func calculateFahrenheit(input: Double) -> Double {
+    
+let result = input * 9/5 + 32 //Basic function to return Fahrenheit
+    
+    return result
+    }
 
+let myResult = calculateFahrenheit(input: 3.14)
 
-
+print("The result is \(myResult)°")
 
 
 
