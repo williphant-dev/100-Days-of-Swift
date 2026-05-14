@@ -126,6 +126,102 @@ let myResult = calculateFahrenheit(input: 3.14)
 
 print("The result is \(myResult)°")
 
+//Arrays
+
+var beatles = ["John", "Paul", "George", "Ringo"] //strings
+
+let numbers = [4, 8, 15, 16 ,23 ,42] //Integers
+
+var temperatures = [25.3, 28.2, 26.4] //Double
+
+print(beatles[0])
+print(numbers[1])
+print(temperatures[2])
+
+beatles.append("Adrian") //At the end, cant be mixed - type safety
+
+var scores = Array<Int>() //creates empty array of type int
+scores.append(100)
+scores.append(80)
+scores.append(85)
+
+print(scores[1])
+
+var albums = [String]() //shorter way of writing it
+
+albums.append("Folklore")
+
+print(albums.count)
+
+var characters = ["Lana", "Pam", "Ray", "Sterling"]
+print(characters.count)
+
+characters.remove(at: 2)
+
+print(characters.count)
+
+characters.removeAll()
+
+print(characters.count)
+
+let bondMovies = ["Casino Royale", "Spectre", "No Time to Die"]
+
+print(bondMovies.contains("Frozen")) //Does it contain?
+
+
+let cities = ["London", "Tokyo", "Rome", "Budapest"]
+print(cities.sorted()) //Sorted array output
+
+let presidents = ["Bush", "Obama", "Trupm", "Biden"]
+
+let reversedPresidents = presidents.reversed()
+
+print(reversedPresidents)
+
+//Dictionaries
+
+let employee2 = [
+    "name": "Taylor Swift",
+    "job": "Singer",
+    "location": "Nashville"
+]
+
+print(employee2["name", default: "Unknown"]) //Name or unknown label
+
+var heights = [String: Int]() // Dictionary, key is string, value int
+heights["Yao Ming"] = 229
+heights["Shaquuille O'Neal"] = 216
+heights["LeBron James"] = 206
+
+//sets - similar to arrays - dont remember the order, dont allow duplicates
+
+var actors = Set([
+    
+    "Denzel Washington",
+    "Tom Cruise",
+    "Nicholas Cage",
+    "Samuel L Jackson"
+])
+
+actors.insert("example") //insert not append
+
+print(actors)
+
+//enums
+
+enum Weekday {
+    case monday
+    case tuesday
+    case wednesday, thursday, friday
+}
+
+var day = Weekday.monday
+day = .tuesday
+day = .wednesday
+
+
+
+
 
 
 
