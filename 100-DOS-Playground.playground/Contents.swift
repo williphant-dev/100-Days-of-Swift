@@ -219,8 +219,136 @@ var day = Weekday.monday
 day = .tuesday
 day = .wednesday
 
+//Day 4 - type annotations
+
+let surname: String = "Lasso" //Must be a String
+
+var score1: Int = 0 //Must be an Int
+
+/*
+let playerName: String = "Ray"
+let luckyNumber: Int = 13
+let pi: Double = 3.141
+var isAuthenticated: Bool = true
+*/
+
+var albumsSwift: [String] = ["Red", "Fearless"] // Array of strings
+
+var user: [String: String] = ["id": "@twostraws"] //Dictionary, string for index, string for data
+var books: Set<String> = Set([
+    "The Bluest Eye",
+    "Foundation",
+    "Girl, Women, Other"
+]) //Set of strings
 
 
+var soda: [String] = ["Coke", "Pepsi", "Irn-Bru"]
+
+var teams: [String] = [String] () //blank array of strings
+
+// var teams: [String] = [] - same thing, different way of writing it
+
+enum UIStyle {
+    case light, dark, system
+    } // Enum
+
+var style = UIStyle.light
+style = .dark
+
+let userName: String //Constant that has no data - will be provided - won't let you use it before it has something assigned
+
+//Complex data
+
+//Arrays, many values - one place - count, append, contains etc (Most common)
+
+//Dictionaries - Store many values, using keys
+
+//Set store lots of value, don't choose the order - very fast
+
+//Enums - create own specific types that make sense in programm
+
+//Swift user type inference to figure out - unless we specify - type annotation
+
+let favouriteFilms: [String] = ["Lord of the Rings", "Harry Potter", "Star Wars", "Start Trek", "Harry Potter", "Harry Potter"]
+
+print(favouriteFilms.count)
+print(favouriteFilms)
+
+let uniqueFilms = Set (favouriteFilms) //create a set as they do not allow for duplicates
+
+print(uniqueFilms.count)
+print(uniqueFilms)
+
+// Day 5 - if,then,else
+
+/*
+ 
+ if somecondition {
+ print("Do something")
+ }
+ 
+ {} - code
+ 
+*/
+
+let scoreConstant = 85
+
+if scoreConstant > 80 {
+    
+    print("Great Job!")
+}
+
+let speed = 88
+let percentage = 85
+let age = 18
+
+if speed >= 88 {
+    print("Where we are going, we don't need roads.")
+}
+
+if percentage < 85 {
+    
+    print("Sorry you failed the test")
+}
+
+if age >= 18 {
+    print("You're eligible to vote")
+}
+
+let ourName = "Dave Lister"
+let friendName = "Arnold Rimmer"
+
+if ourName < friendName {
+    
+    print("It's \(ourName) vs \(friendName)")
+}
+
+if ourName > friendName {
+    
+    print("It's \(friendName) vs \(ourName)")
+}
+
+var newNumbers = [1, 2, 3]
+newNumbers.append(4)
+
+print(newNumbers)
+
+if newNumbers.count > 3 {
+    newNumbers.remove(at: 0)
+}
+
+print(newNumbers)
+
+// == (equal to) != (Not equal to)
+
+var username = "taylorswift13"
+
+if username == "" {
+    //username.IsEmpty - better way of doing it
+    username = "Anonymous"
+}
+
+print("Welcome, \(username)")
 
 
 
