@@ -11,6 +11,9 @@ I'm Will Parsons-Douglas — a former Police Constable with 14 years in Hertford
 |-----|-------|
 | Day 1 | Variables, constants, strings, numbers, type safety |
 | Day 2 | Boolean logic, Checkpoint 1 |
+| Day 3 | Arrays, dictionaries, sets, and enums |
+| Day 4 | Type annotations and checkpoint 2 |
+| Day 5 | If, switch, and the ternary operator |
 
 ## Structure
 
